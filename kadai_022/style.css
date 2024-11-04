@@ -46,7 +46,7 @@ h2{
     display: inline-block;
 }
 
-h2:before {
+h2::before {
     content: "●";
     color: rgb(239, 111, 139);
     margin-right: 5px;
